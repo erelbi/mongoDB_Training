@@ -1,4 +1,4 @@
-# Initial page
+# Mongo Training
 
 ## Install VM
 
