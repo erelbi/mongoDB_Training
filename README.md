@@ -4,9 +4,9 @@ description: ozgurentegrasyon.com
 
 # Mongo Training
 
+Kabuk bir komut yorumlayıcısıdır. Sadece işletim sistemi çekirdeğiyle kullanıcı arasındaki katmana yalıtım sağlamakla kalmaz, oldukça güçlü bir programlama dilidir. Komut dosyası \(script\) adlı bir kabuk programı, sistem çağrıları, araçları, yardımcı programları ve derlenmiş ikili programları bir arada “yapıştırarak” uygulama oluşturmaya yardımcı kolay kullanımlı bir araçtır. Hemen hemen tüm UNIX komutları, yardımcı programlar ve araçlar bir kabuk betiği tarafından çağrılabilir.
+
 ## Install VM
-
-
 
 * OS : [Fedora 34 Server ](https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-dvd-x86_64-34-1.2.iso)
 * Cpu: 2 sockets
@@ -76,7 +76,7 @@ yum install -y mongodb-org mongodb-org-tools mongodb-org-shell
 
 ### SELinux and FirewallD
 
-Security-Enhanced Linux 
+Security-Enhanced Linux
 
 ```text
 vi /etc/selinux/config
@@ -85,7 +85,6 @@ vi /etc/selinux/config
 ```text
 #SELINUX=enforcing
 SELINUX=disabled
-
 ```
 
 ```text
@@ -93,7 +92,7 @@ systemctl  stop firewalld.service
 systemctl  disable firewalld.service
 ```
 
-### Start MongoDB 
+### Start MongoDB
 
 ```text
 sudo systemctl enable mongod.service
@@ -165,16 +164,13 @@ net:
 #auditLog:
 
 #snmp:
-
 ```
 
-```sh
+```bash
 mongod --config /etc/mongod.conf
 ```
 
 ### Mongo Compass
-
-
 
 ![main page](.gitbook/assets/compass.png)
 
