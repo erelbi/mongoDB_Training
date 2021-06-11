@@ -168,7 +168,7 @@ net:
 
 ```
 
-```text
+```sh
 mongod --config /etc/mongod.conf
 ```
 
