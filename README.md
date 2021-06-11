@@ -174,7 +174,7 @@ mongod --config /etc/mongod.conf
 
 ### Mongo Compass
 
-{% embed url="https://www.mongodb.com/try/download/compass" %}
+
 
 ![main page](.gitbook/assets/compass.png)
 
