@@ -90,5 +90,9 @@ db.movies.find({'year':1983, 'imdb.rating':6.2,'countries':['Italy']}).pretty()
 db.movies.find({'year':1983, 'imdb.rating':6.2},{'cast':1}).pretty()
 ```
 
+![](.gitbook/assets/find5.png)
 
+### MongoDB Quiz-1
+
+[https://forms.gle/8M3PBmYM5vT5mybr8](https://forms.gle/8M3PBmYM5vT5mybr8)
 
