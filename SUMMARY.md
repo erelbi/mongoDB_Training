@@ -2,4 +2,5 @@
 
 * [Mongo Training](README.md)
 * [Mongo Shell](mongo-shell.md)
+* [Mongo Shell - Insert](mongo-shell-insert.md)
 
