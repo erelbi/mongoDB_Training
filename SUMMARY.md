@@ -5,4 +5,5 @@
 * [Mongo Shell - Insert](mongo-shell-insert.md)
 * [Mongo Shell - Update](mongo-shell-update.md)
 * [Mongo Shell - Delete](mongo-shell-delete.md)
+* [Comparison Operators](comparison-operators.md)
 
