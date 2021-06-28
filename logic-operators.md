@@ -302,5 +302,13 @@ db.routes.find({ "$and": [ { "$or" :[ { "dst_airport": "KZN" },
 }
 ```
 
+{% hint style="info" %}
+aynı  operatörü bir sorguya birden fazla kez eklemeniz gerektiğinde $and operatörünü kullanmanız gerekmektedir.
+{% endhint %}
 
+{% hint style="info" %}
+$and, bir operatör belirtilmediğinde varsayılan operatör olarak kullanılır.
+{% endhint %}
+
+![](.gitbook/assets/syntax.png)
 
