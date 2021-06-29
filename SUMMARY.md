@@ -7,4 +7,5 @@
 * [Mongo Shell - Delete](mongo-shell-delete.md)
 * [Comparison Operators](comparison-operators.md)
 * [Logic Operators](logic-operators.md)
+* [Expressive Query Operator](expressive-query-operator.md)
 
