@@ -45,3 +45,13 @@ sample\_training veritabanının trips collection dan bir document; "$end statio
 
 ![](.gitbook/assets/trips.png)
 
+Yolculuğun 1200 saniyeden uzun sürdüğü ve aynı istasyonda başlayıp bittiği tüm belgeleri bulalım:
+
+```text
+db.trips.find({ "$expr": { "$and": [ { "$gt": [ "$tripduration", 1200 ]},
+                         { "$eq": [ "$end station id", "$start station id" ]}
+                       ]}}).count()
+```
+
+
+
